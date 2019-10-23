@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    background-color: #0f0f0f;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.gradient-container {
+    background: rgb(15, 15 ,15);
+    height: 10%;
+    max-height: 10%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.gradient {
+    background-color: #0f0f0f;
+    background-size: 800% 800%;
+    height: 4px;
+    
+}
+
+.countdown-time {
+    color :#fff;
+    font: 500 normal 21px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    flex-direction: row;
+}
+
+.countdown-bit {
+    background: #111111;
+    margin: 0px;
+}
+
+.countdown-area {
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* text */
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 400%;
+    color: white;
+}
+
+.h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    color: white;
+    filter: opacity(50%);
+}
+
+
+.title {
+    text-align: center;
+    vertical-align: auto;
+}
+
+.slogan {
+    color: white;
+    margin: 16;
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+    filter: opacity(50%);
+}
+
+.countdown-header {
+    color: #fff;
+}
+
+.counter {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+
+footer {
+    text-decoration: none;
+}
+
+footer .copyright {
+    height: 30px;
+    margin-top: 630px;
+    background-color: rgba(13,13,13);
+    margin-bottom: 10px;
+}
+
+footer .copyright p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    filter: opacity(30%)
+}
